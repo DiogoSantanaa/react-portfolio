@@ -8,6 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <br />
+
         <p>This page is under construction</p>
         <iframe
           src="https://giphy.com/embed/JIX9t2j0ZTN9S"
