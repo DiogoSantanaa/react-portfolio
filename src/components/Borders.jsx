@@ -3,7 +3,13 @@ import React, { Component } from "react";
 class Borders extends Component {
   state = {};
   render() {
-    return <div />;
+    return (
+      <div className="borders">
+        <div className="top" />
+        <div className="left" />
+        <div className="right" />
+      </div>
+    );
   }
 }
 

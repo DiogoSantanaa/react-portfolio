@@ -2,24 +2,25 @@ import React, { Component } from "react";
 
 class Menu extends Component {
   render() {
+    const menus = ["Home", "About me", "Portfolio", "Contact"];
+    const navLinks = menus.map(menuText => {
+      // this will this code for each word of the array menu
+      return (
+        <li className="nav-item">
+          <a className="page-link" href={"#" + menuText}>
+            <span className="hover-line">
+              <span>{menuText}</span>
+            </span>
+          </a>
+        </li>
+      );
+    });
     return (
       <div id="menu">
         {/* container that fills all the page */}
-        <div className="menu-container">
-          <ul>
-            <li />
-          </ul>
-
+        <div className="container-fuild">
           {/* nav text with links and a line above the text when its active  */}
-          <ul className="menu-nav">
-            <li className="nav-item">
-              <a className="page-link" href="#">
-                <span className="hover-line">
-                  <span>text</span>
-                </span>
-              </a>
-            </li>
-          </ul>
+          <ul className="menu-nav">{navLinks}</ul>
 
           {/* social links align to the right   */}
           <ul className="list-socials">
