@@ -47,7 +47,140 @@ body {
 /* End of Menu */
 
 /* About me */
+@media (min-width: 1200px) {
+  .about {
+    padding: 20vh 165px 20vh 20%;
+  }
+}
+@media (min-width: 992px) {
+  .about {
+    padding: 10vh 15vw;
+  }
+}
+@media (min-width: 767px) {
+  .about {
+    padding: 10vh 20vw;
+  }
+}
+@media (min-width: 480px) {
+  .about {
+    padding: 100px 10vw;
+  }
+}
 
+.icon {
+  display: block;
+}
+h1 .waves {
+  margin-bottom: 30px;
+}
+h1 .waves svg {
+  width: 50px;
+  height: 10px;
+}
+.icon svg {
+  display: block;
+}
+@media (min-width: 1200px) {
+  .h1-margin {
+    margin-bottom: 150px !important;
+  }
+}
+@media (min-width: 767px) {
+  .h1-margin {
+    margin-bottom: 120px !important;
+  }
+}
+.h1-margin {
+  margin-bottom: 40px;
+}
+.title-first {
+  font-family: Montserrat-ExtraBold !important;
+  font-weight: normal;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  color: #1c1b20;
+}
+.title-second {
+  font-family: Montserrat-Light !important;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 3.2rem;
+}
+.title-bar {
+  font-family: Montserrat-ExtraBold !important;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  color: #d85d5d;
+}
+.description-title {
+  font-family: Montserrat-SemiBold !important;
+  font-weight: normal;
+  line-height: 1.2;
+  text-transform: none;
+  font-size: 1.6rem;
+  color: #4c4a57;
+  margin-bottom: 40px;
+}
+.cool-font {
+  font-family: IndieFlower !important;
+  font-weight: normal;
+  text-transform: none;
+  font-size: 1.4rem;
+  color: #4c4a57;
+}
+.description-bar {
+  font-family: Montserrat-SemiBold !important;
+  font-weight: normal;
+  text-transform: none;
+  color: #d85d5d;
+}
+.description-subtext {
+  font-family: Montserrat-SemiBold !important;
+  font-weight: normal;
+  line-height: 1.2;
+  text-transform: none;
+  font-size: 1rem;
+  color: #4c4a57;
+  margin-bottom: 40px;
+}
+@media (min-width: 1200px) {
+  .description-subtext {
+    margin-right: 45%;
+  }
+}
+@media (min-width: 767px) {
+  .description-subtext {
+    margin-right: 45%;
+  }
+}
+@media (min-width: 600px) {
+  .description-subtext {
+    margin-right: 45%;
+  }
+}
+h3 .waves svg {
+  width: 25px;
+  height: 6px;
+  margin-bottom: 12px;
+}
+.work-title {
+  font-family: Montserrat-ExtraBold !important;
+  font-weight: normal;
+  text-transform: none;
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.work-subtitle {
+  font-family: Montserrat-SemiBold !important;
+  font-weight: normal;
+  text-transform: none;
+  font-size: 1rem;
+  color: #4c4a57;
+}
 /* End of About me  */
 
 /* Borders */
