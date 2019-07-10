@@ -183,6 +183,176 @@ h3 .waves svg {
 }
 /* End of About me  */
 
+/* Portfolio */
+.col-lg-12 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media (min-width: 1200px) {
+  .portfolio {
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 10vh;
+  }
+}
+@media (min-width: 992px) {
+  .portfolio {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 10vh;
+  }
+}
+@media (min-width: 767px) {
+  .portfolio {
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 10vh;
+  }
+}
+@media (min-width: 480px) {
+  .portfolio {
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 10vh;
+  }
+}
+.portfolio {
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-top: 10vh;
+}
+@media (min-width: 767px) {
+  #portfolio .portfolio-item {
+    margin: 0 0 0px;
+  }
+  #portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 0px;
+  }
+  #portfolio * {
+    z-index: 2;
+  }
+}
+
+.col-lg-4,
+.col-sm-12,
+.col-xs-12 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.conteudo {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0px;
+}
+
+.conteudo .conteudo-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.conteudo:hover .conteudo-overlay {
+  opacity: 1;
+}
+.project-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+/* image 0 blur */
+.conteudo a img {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+/* image hover blured so that the svg dont get affected */
+.conteudo a:hover img {
+  -webkit-filter: blur(8px);
+  filter: blur(8px);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.conteudo:hover .project-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+.img-fuild {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.project-title {
+  font-family: Montserrat-Medium !important;
+  font-weight: normal;
+  font-size: 1.5rem;
+  color: #1c1b20;
+  text-transform: uppercase;
+  top: 60%;
+  right: 15px;
+  position: absolute;
+}
+.project-subtitle {
+  font-family: Montserrat-Light !important;
+  font-weight: normal;
+  font-size: 1.3rem;
+  color: #1c1b20;
+  text-transform: uppercase;
+  top: 70%;
+  right: 15px;
+  position: absolute;
+}
+.project-see {
+  font-family: Montserrat-Light !important;
+  font-weight: normal;
+  font-size: 1.3rem;
+  color: #f8f8f8;
+  text-transform: none;
+  top: 85%;
+  right: 15px;
+  position: absolute;
+}
+.fadeIn-bottom {
+  top: 80%;
+}
+.shape {
+  display: block;
+}
+.shape svg {
+  position: relative;
+  width: 100%;
+}
+
+/* End of Portfolio  */
+
 /* Borders */
 @media (min-width: 767px) {
   .borders > *.top {

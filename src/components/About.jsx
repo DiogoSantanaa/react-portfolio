@@ -7,7 +7,7 @@ class About extends Component {
       <section className="about">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-lg 12">
+            <div className="col-lg-12">
               <h1 className="h1-margin">
                 <i className="icon waves">
                   <svg
@@ -44,7 +44,6 @@ class About extends Component {
               </h1>
             </div>
           </div>
-
           <div className="row">
             <div className="col-lg-12">
               <p className="description-title">
@@ -54,7 +53,6 @@ class About extends Component {
               </p>
             </div>
           </div>
-
           <div className="row">
             <div className="col-lg-6">
               <div className="description">

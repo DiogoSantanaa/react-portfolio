@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import Borders from "./components/Borders";
+import Portfolio from "./components/Portfolio";
 import About from "./components/About";
 import * as serviceWorker from "./serviceWorker";
 
