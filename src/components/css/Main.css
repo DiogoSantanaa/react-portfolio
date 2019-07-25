@@ -285,12 +285,12 @@ h3 .waves svg {
   transition: all 0.3s ease-in-out 0s;
 }
 /* image 0 blur */
-.conteudo a img {
+.conteudo button img {
   -webkit-filter: blur(0);
   filter: blur(0);
 }
 /* image hover blured so that the svg dont get affected */
-.conteudo a:hover img {
+.conteudo button:hover img {
   -webkit-filter: blur(8px);
   filter: blur(8px);
   -webkit-transition: 0.3s ease-in-out;
@@ -350,7 +350,134 @@ h3 .waves svg {
   position: relative;
   width: 100%;
 }
+/* modal */
+.close-modal {
+  display: block;
+}
+.close {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 12px;
+}
+h2 > .waves > svg {
+  width: 50px;
+  height: 10px;
+  margin-bottom: 12px;
+}
+.h2-margin {
+  margin-top: 35px;
+}
+.modal-title {
+  font-family: Montserrat-Light !important;
+  font-weight: normal;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-size: 2.9rem;
+  color: #1c1b20;
+}
+.modal-title-bar {
+  font-family: Montserrat-ExtraBold !important;
+  font-weight: normal;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-size: 2.9rem;
+  color: #d85d5d;
+}
+.description-margin {
+  margin-top: 35px;
+}
+.modal-description {
+  font-family: Montserrat-Light !important;
+  font-weight: normal;
+  line-height: 1.2;
+  text-transform: none;
+  font-size: 1.7rem;
+  color: #1c1b20;
+  padding-right: 20%;
+}
+.modal-technologies {
+  font-family: Montserrat-SemiBold !important;
+  font-weight: normal;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  color: #1c1b20;
+  margin-bottom: 30px;
+}
+ul.a {
+  list-style-type: none;
+}
+.list-text {
+  font-family: Montserrat-Light !important;
+  font-weight: normal;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  color: #1c1b20;
+  margin-top: 10px;
+}
+.modal-technologies-bar {
+  font-family: Montserrat-SemiBold !important;
+  font-weight: normal;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  color: #d85d5d;
+}
+.btn-demo {
+  padding: 15px 20px;
+  margin-top: 20px;
+  margin-right: 60px;
+  min-width: 250px;
+  display: inline-block;
+  text-align: center;
+  background: #d85d5d;
+  color: #f8f8f8;
+  font-family: Montserrat-SemiBold !important;
+  font-weight: normal;
+  line-height: 1.2;
+  text-transform: none;
+  font-size: 1.2rem;
+  transition: all 0.2s linear;
+  border-radius: none;
+  border: none;
+  line-height: 130%;
+}
+.btn-demo:hover {
+  /* efeito sombra quando rato passa por cima */
+  background: #1c1b20;
+}
+.btn-github {
+  padding: 15px 20px;
+  margin-top: 20px;
+  margin-right: 60px;
+  min-width: 250px;
+  display: inline-block;
+  text-align: center;
+  background: #1c1b20;
+  color: #f8f8f8;
+  font-family: Montserrat-SemiBold !important;
+  font-weight: normal;
+  line-height: 1.2;
+  text-transform: none;
+  font-size: 1.2rem;
+  transition: all 0.2s linear;
+  border-radius: none;
+  border: none;
+  line-height: 130%;
+}
+.btn-github:hover {
+  /* efeito sombra quando rato passa por cima */
+  background: #d85d5d;
+}
+.modal-margin {
+  margin-left: 50px;
+  margin-right: 50px;
+}
 
+.img-modal-margin {
+  margin-top: 5rem;
+}
 /* End of Portfolio  */
 
 /* Borders */
