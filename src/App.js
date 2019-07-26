@@ -17,6 +17,7 @@ function App() {
           height="200"
           frameBorder="0"
           class="giphy-embed"
+          title="gif"
           allowFullScreen
         />
       </header>

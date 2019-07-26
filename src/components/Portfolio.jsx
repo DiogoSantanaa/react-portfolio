@@ -247,6 +247,7 @@ class Portfolio extends Component {
                         src={require(`../images/modal/work-gif/${
                           work.gif
                         }.gif`)}
+                        alt="Portfolio"
                       />
                     </div>
                   </div>
