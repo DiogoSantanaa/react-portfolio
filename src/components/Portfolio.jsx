@@ -1,8 +1,4 @@
 import React, { Component } from "react";
-import projeto1 from "../images/portfolio-images/thumbs/teste.jpg";
-import projeto2 from "../images/portfolio-images/thumbs/teste.jpg";
-import projeto3 from "../images/portfolio-images/thumbs/teste.jpg";
-import roadcamper_gif from "../images/modal/work-gif/roadcamper.gif";
 
 import Modal from "react-modal";
 

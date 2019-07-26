@@ -478,6 +478,10 @@ ul.a {
 .img-modal-margin {
   margin-top: 5rem;
 }
+.conteudo button {
+  padding: 0px 0px 0px;
+  border-width: 0px;
+}
 /* End of Portfolio  */
 
 /* Borders */
