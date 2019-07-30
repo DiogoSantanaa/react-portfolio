@@ -1,9 +1,92 @@
 import React, { Component } from "react";
-import { Col, Row, Button, Form, FormGroup, Input, FormText } from "reactstrap";
+import { Col, Row, Button, Form, FormGroup, Input } from "reactstrap";
 
+const emailRegex = RegExp(
+  /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+);
+
+const formValid = ({ formErrors, ...rest }) => {
+  let valid = true;
+
+  // validate form errors being empty
+  Object.values(formErrors).forEach(val => {
+    val.length > 0 && (valid = false);
+  });
+
+  // validate the form was filled out
+  Object.values(rest).forEach(val => {
+    val === null && (valid = false);
+  });
+
+  return valid;
+};
 class Contact extends Component {
-  state = {};
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      name: null,
+      email: null,
+      subject: null,
+      message: null,
+      formErrors: {
+        name: "",
+        email: "",
+        subject: "",
+        message: ""
+      }
+    };
+  }
+
+  handleSubmit = e => {
+    e.preventDefault();
+
+    if (formValid(this.state)) {
+      console.log(`
+        --SUBMITTING--
+        Name: ${this.state.name}
+        Email: ${this.state.email}
+        Subject: ${this.state.subject}
+        Message: ${this.state.Message}
+      `);
+    } else {
+      console.error("FORM INVALID - DISPLAY ERROR MESSAGE");
+    }
+  };
+
+  handleChange = e => {
+    e.preventDefault();
+    const { name, value } = e.target;
+    let formErrors = { ...this.state.formErrors };
+
+    switch (name) {
+      case "name":
+        formErrors.name =
+          value.length < 3 ? "Minimum 3 characaters required" : "";
+        break;
+      case "email":
+        formErrors.email = emailRegex.test(value)
+          ? ""
+          : "Invalid email address";
+        break;
+      case "subject":
+        formErrors.subject =
+          value.length < 5 ? "Minimum 5 characaters required" : "";
+        break;
+      case "message":
+        formErrors.message =
+          value.length < 20 ? "Minimum 20 characaters required" : "";
+        break;
+
+      default:
+        break;
+    }
+
+    this.setState({ formErrors, [name]: value }, () => console.log(this.state));
+  };
+
   render() {
+    const { formErrors } = this.state;
     return (
       <section className="">
         <div className="container-fuild">
@@ -47,16 +130,20 @@ class Contact extends Component {
           </div>
 
           <div className="email">
-            <Form>
+            <Form onSubmit={this.handleSubmit} noValidate>
               <Row form>
                 <Col md={6}>
                   <FormGroup>
                     <Input
+                      placeholder="Name"
                       type="text"
                       name="name"
-                      id="exampleName"
-                      placeholder="Name :"
+                      noValidate
+                      onChange={this.handleChange}
                     />
+                    {formErrors.name.length > 0 && (
+                      <span className="errorMessage">{formErrors.name}</span>
+                    )}
                   </FormGroup>
                 </Col>
                 <Col md={6}>
@@ -66,7 +153,12 @@ class Contact extends Component {
                       name="email"
                       id="exampleEmail"
                       placeholder="Email :"
+                      noValidate
+                      onChange={this.handleChange}
                     />
+                    {formErrors.email.length > 0 && (
+                      <span className="errorMessage">{formErrors.email}</span>
+                    )}
                   </FormGroup>
                 </Col>
               </Row>
@@ -77,19 +169,30 @@ class Contact extends Component {
                   name="subject"
                   id="exampleSubject"
                   placeholder="Subject :"
+                  noValidate
+                  onChange={this.handleChange}
                 />
+                {formErrors.subject.length > 0 && (
+                  <span className="errorMessage">{formErrors.subject}</span>
+                )}
               </FormGroup>
+
               <FormGroup>
                 <Input
                   type="text"
                   name="message"
                   id="exampleMessage"
                   placeholder="Message :"
+                  noValidate
+                  onChange={this.handleChange}
                 />
+                {formErrors.message.length > 0 && (
+                  <span className="errorMessage">{formErrors.message}</span>
+                )}
               </FormGroup>
 
               <FormGroup className="text-right">
-                <Button>Send >></Button>
+                <Button onClick={this.sendEmail}>Send >></Button>
               </FormGroup>
             </Form>
           </div>

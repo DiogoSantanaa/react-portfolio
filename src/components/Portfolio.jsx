@@ -34,8 +34,8 @@ class Portfolio extends Component {
         substitle: "web responsive - 2018",
         image: "teste",
         modal: "portfolioModal1",
-        git: "www.google.pt",
-        demo: "www.google.pt",
+        git: "https://github.com/DiogoSantanaa/roadcamper",
+        demo: "www.roadcamper.pt/",
         gif: "roadcamper",
         description:
           "Chapter too parties its letters nor. Cheerful but whatever ladyship disposed yet judgment. Lasted answer oppose to ye months no esteem. Branched is on an ecstatic directly it. Put off continue you denoting returned juvenile. Looked person sister result mr to. Replied demands charmed do viewing ye colonel to so. Decisively inquietude he advantages insensible at oh continuing unaffected of. "
@@ -46,7 +46,7 @@ class Portfolio extends Component {
         substitle: "web responsive - 2018",
         image: "teste",
         modal: "portfolioModal2",
-        git: "www.google.pt",
+        git: "https://github.com/DiogoSantanaa/inforarte",
         demo: "www.google.pt",
         gif: "roadcamper",
         description:
@@ -54,12 +54,12 @@ class Portfolio extends Component {
       },
       {
         id: 3,
-        title: "Inforarte",
+        title: "Diogo Portfólio",
         substitle: "React.js - 2019",
         image: "teste",
         modal: "portfolioModal3",
-        git: "www.google.pt",
-        demo: "www.google.pt",
+        git: "https://github.com/DiogoSantanaa/react-portfolio",
+        demo: "https://diogo-santana.tk/",
         gif: "roadcamper",
         description:
           "Chapter too parties its letters nor. Cheerful but whatever ladyship disposed yet judgment. Lasted answer oppose to ye months no esteem. Branched is on an ecstatic directly it. Put off continue you denoting returned juvenile. Looked person sister result mr to. Replied demands charmed do viewing ye colonel to so. Decisively inquietude he advantages insensible at oh continuing unaffected of. "
