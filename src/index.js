@@ -9,7 +9,6 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Borders from "./components/Borders";
 import * as serviceWorker from "./serviceWorker";
-import background from "./images/background.svg";
 
 class App extends Component {
   render() {

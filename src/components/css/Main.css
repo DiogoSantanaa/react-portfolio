@@ -1,36 +1,37 @@
-@font-face {
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+/* @font-face {
   font-family: "Montserrat-Medium";
-  src: url("/fonts/Montserrat-Medium.ttf") format("truetype");
+  src: url("/public/fonts/Montserrat-Medium.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat-SemiBold";
-  src: url("/fonts/Montserrat-SemiBold.ttf") format("truetype");
+  src: url("/public/fonts/Montserrat-SemiBold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat-Thin";
-  src: url("/fonts/Montserrat-Thin.ttf") format("truetype");
+  src: url("/public/fonts/Montserrat-Thin.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat-Light";
-  src: url("/fonts/Montserrat-Light.ttf") format("truetype");
+  src: url("/public/fonts/Montserrat-Light.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat-ExtraBold";
-  src: url("/fonts/Montserrat-ExtraBold.ttf") format("truetype");
+  src: url("/public/fonts/Montserrat-ExtraBold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-}
+} */
 @font-face {
   font-family: "IndieFlower";
-  src: url("/fonts/IndieFlower.ttf") format("truetype");
+  src: url("/public/fonts/IndieFlower.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

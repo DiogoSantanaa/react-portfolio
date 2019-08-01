@@ -8,7 +8,7 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <img src={background} id="background" />
+        <img src={background} alt="bg" id="background" />
         <section className="bg">
           <div className="container-fluid">
             <div className="row">
