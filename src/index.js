@@ -1,16 +1,33 @@
-import React from "react";
+import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-// import App from "./App";
-//import Portfolio from "./components/Portfolio";
-import Header from "./components/Header";
 import "./components/css/Main.css";
-
-// import About from "./components/About";
-// import Contact from "./components/Contact";
+//import App from "./App";
+import Header from "./components/Header";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+import Borders from "./components/Borders";
 import * as serviceWorker from "./serviceWorker";
+import background from "./images/background.svg";
 
-ReactDOM.render(<Header />, document.getElementById("root"));
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Header />
+        <About />
+        <Portfolio />
+        <Contact />
+        <Borders />
+      </div>
+    );
+  }
+}
+
+export default App;
+
+ReactDOM.render(<App />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

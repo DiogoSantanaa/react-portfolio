@@ -38,10 +38,17 @@
 body {
   background-color: #f8f8f8;
 }
+#background {
+  position: absolute;
+  background-attachment: fixed;
+  background-size: cover;
+  right: 0;
+}
+
 /* Header */
-section {
+section.bg {
   height: 100%;
-  background: linear-gradient(155deg, #d85d5d 50%, transparent 50%);
+  background: linear-gradient(155deg, #d85d5d 51%, transparent 49%);
 }
 @media (min-width: 767px) {
   section.bg {
@@ -51,12 +58,10 @@ section {
     height: 100vh;
   }
 }
-
 section.bg {
   position: relative;
   z-index: 2 !important;
 }
-
 @media screen and (min-width: 320px) {
   .align-text-header h1 {
     font-size: calc(16vw + 6 * ((100vw - 320px) / 680));
@@ -126,7 +131,6 @@ section.bg {
 }
 section .header-scroll {
   position: absolute;
-
   -webkit-transform: rotate(-90deg) translateY(-60px) translateX(-100px);
   -moz-transform: rotate(-90deg) translateY(-60px) translateX(-100px);
   -ms-transform: rotate(-90deg) translateY(-60px) translateX(-100px);
@@ -178,7 +182,9 @@ section .header-scroll {
 }
 @media (min-width: 480px) {
   .about {
-    padding: 100px 10vw;
+    padding: 150px;
+    padding-left: 20vw;
+    padding-right: 15vw;
   }
 }
 
@@ -298,6 +304,20 @@ h3 .waves svg {
 /* End of About me  */
 
 /* Portfolio */
+
+@media screen and (min-width: 0px) {
+  section .bar-padding {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+}
+@media screen and (min-width: 550px) {
+  section .bar-padding {
+    margin-left: 40px !important;
+    margin-right: 40px !important;
+  }
+}
+
 .col-lg-12 {
   padding-left: 0px;
   padding-right: 0px;
@@ -306,34 +326,34 @@ h3 .waves svg {
   .portfolio {
     padding-left: 20vw;
     padding-right: 20vw;
-    padding-top: 10vh;
+    padding-top: 150px;
   }
 }
 @media (min-width: 992px) {
   .portfolio {
     padding-left: 15vw;
     padding-right: 15vw;
-    padding-top: 10vh;
+    padding-top: 150px;
   }
 }
 @media (min-width: 767px) {
   .portfolio {
     padding-left: 20vw;
     padding-right: 20vw;
-    padding-top: 10vh;
+    padding-top: 150px;
   }
 }
 @media (min-width: 480px) {
   .portfolio {
     padding-left: 20vw;
     padding-right: 20vw;
-    padding-top: 10vh;
+    padding-top: 150px;
   }
 }
 .portfolio {
   padding-left: 20vw;
   padding-right: 20vw;
-  padding-top: 10vh;
+  padding-top: 180px;
 }
 @media (min-width: 767px) {
   #portfolio .portfolio-item {

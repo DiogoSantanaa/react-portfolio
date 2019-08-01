@@ -104,12 +104,12 @@ class Portfolio extends Component {
                     <style
                       type="text/css"
                       dangerouslySetInnerHTML={{
-                        __html: "\n\t.st0{fill:#D85D5D;}\n"
+                        __html: "\n\t.portfolio-svg{fill:#D85D5D;}\n"
                       }}
                     />
                     <path
                       id="Caminho_8"
-                      className="st0"
+                      className="portfolio-svg"
                       d="M600,500V152L0,361.7V500H600z"
                     />
                   </svg>
@@ -299,7 +299,7 @@ class Portfolio extends Component {
             </div>
           </div>
 
-          <div className="row">{projects} </div>
+          <div className="row bar-padding">{projects} </div>
         </div>
       </section>
     );
