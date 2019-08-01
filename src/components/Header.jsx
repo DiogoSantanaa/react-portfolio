@@ -1,10 +1,74 @@
 import React, { Component } from "react";
-import logo_header from "../images/logo-header/logo_header.svg";
+// import { Animated } from "react-animated-css";
 
 class Header extends Component {
   state = {};
+
   render() {
-    return <header />;
+    return (
+      <header>
+        <section className="bg">
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="align-header-content">
+                  <div className="align-text-header">
+                    <h1>
+                      <span className="title-hello">Hello</span>
+                      <br />
+                      <span className="title-there">There</span>
+                      <span className="title-bar-header">/</span>
+                    </h1>
+                  </div>
+                  <div className="align-text-header">
+                    <p className="header-subtitle text-center">
+                      My name is Diogo Santana
+                    </p>
+                  </div>
+                  <span className="header-scroll">
+                    {/* <Animated
+                      animationIn="slideInDown"
+                      animationOut="fadeOut"
+                      animationInDelay="2s"
+                      isVisible={true}
+                    >
+                      <i>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="12"
+                          height="18"
+                          viewBox="0 0 17 10"
+                        >
+                          <path
+                            className="cls-1"
+                            d="M6.22,8.75,3.37,5.89H17V4.12H3.37L6.22,1.25,5,0,0,5l5,5Z"
+                          />
+                        </svg>
+                      </i>
+                    </Animated> */}
+                    <i className="arrow">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="12"
+                        height="18"
+                        viewBox="0 0 17 10"
+                      >
+                        <path
+                          className="cls-1"
+                          d="M6.22,8.75,3.37,5.89H17V4.12H3.37L6.22,1.25,5,0,0,5l5,5Z"
+                        />
+                      </svg>
+                    </i>
+
+                    <span className="scroll-txt">scroll</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </header>
+    );
   }
 }
 

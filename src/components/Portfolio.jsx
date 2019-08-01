@@ -1,6 +1,9 @@
 import React, { Component } from "react";
-
 import Modal from "react-modal";
+
+import { enableRipple } from "@syncfusion/ej2-base";
+
+enableRipple(true);
 
 class Portfolio extends Component {
   constructor() {
@@ -65,6 +68,7 @@ class Portfolio extends Component {
           "Chapter too parties its letters nor. Cheerful but whatever ladyship disposed yet judgment. Lasted answer oppose to ye months no esteem. Branched is on an ecstatic directly it. Put off continue you denoting returned juvenile. Looked person sister result mr to. Replied demands charmed do viewing ye colonel to so. Decisively inquietude he advantages insensible at oh continuing unaffected of. "
       }
     ];
+
     const projects = works.map(work => {
       // this will this code for each word of the array menu
       return (
@@ -117,12 +121,7 @@ class Portfolio extends Component {
             </button>
           </div>
 
-          <Modal
-            key={work.id}
-            isOpen={this.state.isActive}
-            onRequestClose={this.toggleModal}
-            id={"#" + work.modal}
-          >
+          <Modal isOpen={this.state.isActive} onRequestClose={this.toggleModal}>
             <div className="">
               <div className="container-fluid">
                 {/* close modal */}
@@ -225,15 +224,14 @@ class Portfolio extends Component {
                     <button
                       className="btn-demo"
                       target="_blank"
-                      href={work.demo}
+                      onClick={() => window.open(work.demo)}
                     >
                       Live Demo
                     </button>
                     <br />
                     <button
                       className="btn-github"
-                      onClick={work.git}
-                      href="www.google.pt"
+                      onClick={() => window.open(work.git)}
                       target="_blank"
                     >
                       GitHub Repo

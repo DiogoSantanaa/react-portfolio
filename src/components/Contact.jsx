@@ -36,6 +36,9 @@ class Contact extends Component {
         message: ""
       }
     };
+
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   handleSubmit = e => {
@@ -47,7 +50,7 @@ class Contact extends Component {
         Name: ${this.state.name}
         Email: ${this.state.email}
         Subject: ${this.state.subject}
-        Message: ${this.state.Message}
+        Message: ${this.state.message}
       `);
     } else {
       console.error("FORM INVALID - DISPLAY ERROR MESSAGE");

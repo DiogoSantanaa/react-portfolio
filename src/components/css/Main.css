@@ -39,6 +39,120 @@ body {
   background-color: #f8f8f8;
 }
 /* Header */
+section {
+  height: 100%;
+  background: linear-gradient(155deg, #d85d5d 50%, transparent 50%);
+}
+@media (min-width: 767px) {
+  section.bg {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    height: 100vh;
+  }
+}
+
+section.bg {
+  position: relative;
+  z-index: 2 !important;
+}
+
+@media screen and (min-width: 320px) {
+  .align-text-header h1 {
+    font-size: calc(16vw + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .align-text-header h1 {
+    font-size: 10rem;
+  }
+}
+.align-header-content {
+  padding: 14% 25%;
+}
+.align-text-header {
+  display: flex; /* Flex Container */
+  align-items: center; /* Vertically Centers Child */
+  justify-content: center;
+  /* padding: 14% 25%; */
+}
+.title-hello {
+  font-family: Montserrat-ExtraBold !important;
+  font-weight: normal;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #1c1b20;
+}
+.title-there {
+  font-family: Montserrat-Light !important;
+  font-weight: normal;
+  line-height: 1.2;
+  text-transform: uppercase;
+  padding-right: 40px;
+}
+.title-bar-header {
+  font-family: Montserrat-ExtraBold !important;
+  font-weight: normal;
+  line-height: 1.2;
+  color: #d85d5d;
+}
+@media screen and (min-width: 320px) {
+  .align-text-header p {
+    font-size: calc(1.9vw + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .align-text-header p {
+    font-size: 1.8rem;
+  }
+}
+.header-subtitle {
+  font-family: Montserrat-ExtraBold !important;
+  font-weight: normal;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #1c1b20;
+}
+
+@media screen and (min-width: 0px) {
+  section .header-scroll {
+    opacity: 0;
+  }
+}
+@media screen and (min-width: 550px) {
+  section .header-scroll {
+    opacity: 1;
+  }
+}
+section .header-scroll {
+  position: absolute;
+
+  -webkit-transform: rotate(-90deg) translateY(-60px) translateX(-100px);
+  -moz-transform: rotate(-90deg) translateY(-60px) translateX(-100px);
+  -ms-transform: rotate(-90deg) translateY(-60px) translateX(-100px);
+  -o-transform: rotate(-90deg) translateY(-60px) translateX(-100px);
+  transform: rotate(-90deg) translateY(-60px) translateX(-100px);
+  bottom: 25%;
+  left: 50%;
+}
+
+@media screen and (min-width: 320px) {
+  span .scroll-txt {
+    font-size: calc(1.1vw + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  span .scroll-txt {
+    font-size: 1rem;
+  }
+}
+.scroll-txt {
+  font-family: Montserrat-Light !important;
+  font-weight: normal;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
 
 /* End of Header*/
 
