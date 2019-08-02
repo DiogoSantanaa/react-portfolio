@@ -3,8 +3,6 @@ import React, { Component } from "react";
 import background from "../images/background.svg";
 
 class Header extends Component {
-  state = {};
-
   render() {
     return (
       <header>
@@ -27,44 +25,23 @@ class Header extends Component {
                       My name is Diogo Santana
                     </p>
                   </div>
-                  <span className="header-scroll">
-                    {/* <Animated
-                      animationIn="slideInDown"
-                      animationOut="fadeOut"
-                      animationInDelay="2s"
-                      isVisible={true}
-                    >
-                      <i>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="12"
-                          height="18"
-                          viewBox="0 0 17 10"
-                        >
-                          <path
-                            className="cls-1"
-                            d="M6.22,8.75,3.37,5.89H17V4.12H3.37L6.22,1.25,5,0,0,5l5,5Z"
-                          />
-                        </svg>
-                      </i>
-                    </Animated> */}
-                    <i className="arrow">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="12"
-                        height="18"
-                        viewBox="0 0 17 10"
-                      >
-                        <path
-                          className="cls-1"
-                          d="M6.22,8.75,3.37,5.89H17V4.12H3.37L6.22,1.25,5,0,0,5l5,5Z"
-                        />
-                      </svg>
-                    </i>
-
-                    <span className="scroll-txt">scroll</span>
-                  </span>
                 </div>
+                <span className="header-scroll">
+                  <i className="arrow">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="18"
+                      viewBox="0 0 17 10"
+                    >
+                      <path
+                        className="cls-1"
+                        d="M6.22,8.75,3.37,5.89H17V4.12H3.37L6.22,1.25,5,0,0,5l5,5Z"
+                      />
+                    </svg>
+                  </i>
+                  <span className="scroll-txt">scroll</span>
+                </span>
               </div>
             </div>
           </div>
