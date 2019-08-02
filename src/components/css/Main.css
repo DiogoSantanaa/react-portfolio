@@ -1,41 +1,5 @@
-@font-face {
-  font-family: "Montserrat-Medium";
-  src: url("/public/fonts/Montserrat-Medium.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Montserrat-SemiBold";
-  src: url("/public/fonts/Montserrat-SemiBold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Montserrat-Thin";
-  src: url("/public/fonts/Montserrat-Thin.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Montserrat-Light";
-  src: url("/public/fonts/Montserrat-Light.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Montserrat-ExtraBold";
-  src: url("/public/fonts/Montserrat-ExtraBold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "IndieFlower";
-  src: url("/public/fonts/IndieFlower.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,500,600,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
 
 body {
   background-color: #f8f8f8;
@@ -217,29 +181,29 @@ h1 .waves svg {
   margin-bottom: 40px;
 }
 .title-first {
-  font-family: Montserrat-ExtraBold !important;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
   line-height: 1.2;
   text-transform: uppercase;
   font-size: 3.2rem;
   color: #1c1b20;
 }
 .title-second {
-  font-family: Montserrat-Light !important;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   text-transform: uppercase;
   font-size: 3.2rem;
 }
 .title-bar {
-  font-family: Montserrat-ExtraBold !important;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
   text-transform: uppercase;
   font-size: 3.2rem;
   color: #d85d5d;
 }
 .description-title {
-  font-family: Montserrat-SemiBold !important;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   line-height: 1.2;
   text-transform: none;
   font-size: 1.6rem;
@@ -247,21 +211,21 @@ h1 .waves svg {
   margin-bottom: 40px;
 }
 .cool-font {
-  font-family: IndieFlower !important;
+  font-family: "Indie Flower", cursive;
   font-weight: normal;
   text-transform: none;
   font-size: 1.4rem;
   color: #4c4a57;
 }
 .description-bar {
-  font-family: Montserrat-SemiBold !important;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   text-transform: none;
   color: #d85d5d;
 }
 .description-subtext {
-  font-family: Montserrat-SemiBold !important;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   line-height: 1.2;
   text-transform: none;
   font-size: 1rem;
@@ -289,16 +253,16 @@ h3 .waves svg {
   margin-bottom: 12px;
 }
 .work-title {
-  font-family: Montserrat-ExtraBold !important;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
   text-transform: none;
   font-size: 1.2rem;
   color: #ffffff;
   margin-bottom: 20px;
 }
 .work-subtitle {
-  font-family: Montserrat-SemiBold !important;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   text-transform: none;
   font-size: 1rem;
   color: #4c4a57;
@@ -447,8 +411,8 @@ h3 .waves svg {
 }
 
 .project-title {
-  font-family: Montserrat-Medium !important;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   font-size: 1.5rem;
   color: #1c1b20;
   text-transform: uppercase;
@@ -457,8 +421,8 @@ h3 .waves svg {
   position: absolute;
 }
 .project-subtitle {
-  font-family: Montserrat-Light !important;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   font-size: 1.3rem;
   color: #1c1b20;
   text-transform: uppercase;
@@ -467,8 +431,8 @@ h3 .waves svg {
   position: absolute;
 }
 .project-see {
-  font-family: Montserrat-Light !important;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   font-size: 1.3rem;
   color: #f8f8f8;
   text-transform: none;
@@ -504,16 +468,16 @@ h2 > .waves > svg {
   margin-top: 35px;
 }
 .modal-title {
-  font-family: Montserrat-Light !important;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   line-height: 1.2;
   text-transform: uppercase;
   font-size: 2.9rem;
   color: #1c1b20;
 }
 .modal-title-bar {
-  font-family: Montserrat-ExtraBold !important;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
   line-height: 1.2;
   text-transform: uppercase;
   font-size: 2.9rem;
@@ -523,8 +487,8 @@ h2 > .waves > svg {
   margin-top: 35px;
 }
 .modal-description {
-  font-family: Montserrat-Light !important;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   line-height: 1.2;
   text-transform: none;
   font-size: 1.7rem;
@@ -532,8 +496,8 @@ h2 > .waves > svg {
   padding-right: 20%;
 }
 .modal-technologies {
-  font-family: Montserrat-SemiBold !important;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   line-height: 1.2;
   text-transform: uppercase;
   font-size: 1.8rem;
@@ -544,8 +508,8 @@ ul.a {
   list-style-type: none;
 }
 .list-text {
-  font-family: Montserrat-Light !important;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   line-height: 1.2;
   text-transform: uppercase;
   font-size: 1.6rem;
@@ -553,8 +517,8 @@ ul.a {
   margin-top: 10px;
 }
 .modal-technologies-bar {
-  font-family: Montserrat-SemiBold !important;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   line-height: 1.2;
   text-transform: uppercase;
   font-size: 1.6rem;
@@ -569,8 +533,8 @@ ul.a {
   text-align: center;
   background: #d85d5d;
   color: #f8f8f8;
-  font-family: Montserrat-SemiBold !important;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   line-height: 1.2;
   text-transform: none;
   font-size: 1.2rem;
@@ -592,8 +556,8 @@ ul.a {
   text-align: center;
   background: #1c1b20;
   color: #f8f8f8;
-  font-family: Montserrat-SemiBold !important;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   line-height: 1.2;
   text-transform: none;
   font-size: 1.2rem;
@@ -688,9 +652,9 @@ ul.a {
   width: 100%;
   height: calc(1.5em + 0.75rem + 20px);
   padding: 0.375rem 0.75rem;
-  font-family: Montserrat-Light !important;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   font-size: 1rem;
-  font-weight: normal;
   line-height: 1.5;
   color: #f8f8f8 !important;
   background-color: #d85d5d;
