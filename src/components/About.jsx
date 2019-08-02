@@ -4,11 +4,11 @@ class About extends Component {
   state = {};
   render() {
     return (
-      <section className="about">
-        <div className="container-fluid">
+      <section>
+        <div className="container-fluid about">
           <div className="row">
             <div className="col-lg-12">
-              <h1 className="h1-margin">
+              <h1 className="h1-margin ">
                 <i className="icon waves">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
