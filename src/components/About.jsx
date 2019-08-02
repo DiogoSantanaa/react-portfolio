@@ -5,10 +5,10 @@ class About extends Component {
   render() {
     return (
       <section>
-        <div className="container-fluid about">
+        <div className="container-fluid ">
           <div className="row">
             <div className="col-lg-12">
-              <h1 className="h1-margin ">
+              <h1 className="h1-margin about">
                 <i className="icon waves">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -44,16 +44,16 @@ class About extends Component {
               </h1>
             </div>
           </div>
-          <div className="row">
+          <div className="row about-padding">
             <div className="col-lg-12">
-              <p className="description-title">
+              <p className="description-title ">
                 An little <span className="cool-font">overview </span>
                 <br />
                 Of me <span className="description-bar">/</span>
               </p>
             </div>
           </div>
-          <div className="row">
+          <div className="row about-padding">
             <div className="col-lg-6">
               <div className="description">
                 <p className="description-subtext">
