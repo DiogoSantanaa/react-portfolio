@@ -42,10 +42,7 @@ section.bg {
   padding: 14% 30%;
 }
 .align-text-header {
-  display: flex; /* Flex Container */
-  align-items: center; /* Vertically Centers Child */
-  justify-content: center;
-  /* padding: 14% 25%; */
+  margin-top: 25vh;
 }
 .title-hello {
   font-family: "Montserrat", sans-serif;
@@ -90,7 +87,7 @@ section.bg {
     opacity: 0;
   }
 }
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 776px) {
   section .header-scroll {
     opacity: 1;
   }
@@ -475,6 +472,11 @@ h3 .waves svg {
   height: 50px;
   margin-bottom: 12px;
 }
+
+.modal-fluid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
 h2 > .waves > svg {
   width: 50px;
   height: 10px;
@@ -483,12 +485,33 @@ h2 > .waves > svg {
 .h2-margin {
   margin-top: 35px;
 }
+
+@media screen and (min-width: 320px) {
+  .modal-title {
+    font-size: calc(4.1vw + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .modal-title {
+    font-size: 2.9rem;
+  }
+}
+@media screen and (min-width: 320px) {
+  .modal-title-bar {
+    font-size: calc(3.8vw + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .modal-title-bar {
+    font-size: 2.9rem;
+  }
+}
 .modal-title {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   line-height: 1.2;
   text-transform: uppercase;
-  font-size: 2.9rem;
+
   color: #1c1b20;
 }
 .modal-title-bar {
@@ -496,55 +519,104 @@ h2 > .waves > svg {
   font-weight: 800;
   line-height: 1.2;
   text-transform: uppercase;
-  font-size: 2.9rem;
+
   color: #d85d5d;
 }
 .description-margin {
   margin-top: 35px;
+}
+
+@media screen and (min-width: 320px) {
+  .modal-description {
+    font-size: calc(2.2vw + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .modal-description {
+    font-size: 1.7rem;
+  }
 }
 .modal-description {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   line-height: 1.2;
   text-transform: none;
-  font-size: 1.7rem;
   color: #1c1b20;
   padding-right: 20%;
+}
+@media screen and (min-width: 320px) {
+  .modal-technologies {
+    font-size: calc(2.2vw + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .modal-technologies {
+    font-size: 1.8rem;
+  }
 }
 .modal-technologies {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   line-height: 1.2;
   text-transform: uppercase;
-  font-size: 1.8rem;
   color: #1c1b20;
   margin-bottom: 30px;
 }
 ul.a {
   list-style-type: none;
 }
+@media screen and (min-width: 320px) {
+  .list-text {
+    font-size: calc(1.8vw + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .list-text {
+    font-size: 1.6rem;
+  }
+}
 .list-text {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   line-height: 1.2;
   text-transform: uppercase;
-  font-size: 1.6rem;
   color: #1c1b20;
   margin-top: 10px;
+}
+@media screen and (min-width: 320px) {
+  .modal-technologies-bar {
+    font-size: calc(1.8vw + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .modal-technologies-bar {
+    font-size: 1.6rem;
+  }
 }
 .modal-technologies-bar {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   line-height: 1.2;
   text-transform: uppercase;
-  font-size: 1.6rem;
   color: #d85d5d;
+}
+
+@media screen and (min-width: 320px) {
+  .btn-demo {
+    margin-right: 0px;
+    min-width: 215px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .btn-demo {
+    margin-right: 60px;
+    min-width: 250px;
+  }
 }
 .btn-demo {
   padding: 15px 20px;
   margin-top: 20px;
-  margin-right: 60px;
-  min-width: 250px;
+
   display: inline-block;
   text-align: center;
   background: #d85d5d;
@@ -563,11 +635,22 @@ ul.a {
   /* efeito sombra quando rato passa por cima */
   background: #1c1b20;
 }
+@media screen and (min-width: 320px) {
+  .btn-github {
+    margin-right: 0px;
+    min-width: 215px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .btn-github {
+    margin-right: 60px;
+    min-width: 250px;
+  }
+}
 .btn-github {
   padding: 15px 20px;
   margin-top: 20px;
-  margin-right: 60px;
-  min-width: 250px;
+
   display: inline-block;
   text-align: center;
   background: #1c1b20;
@@ -586,9 +669,18 @@ ul.a {
   /* efeito sombra quando rato passa por cima */
   background: #d85d5d;
 }
-.modal-margin {
-  margin-left: 50px;
-  margin-right: 50px;
+
+@media screen and (min-width: 320px) {
+  .modal-margin {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .modal-margin {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 }
 
 .img-modal-margin {

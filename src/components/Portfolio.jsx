@@ -123,7 +123,7 @@ class Portfolio extends Component {
 
           <Modal isOpen={this.state.isActive} onRequestClose={this.toggleModal}>
             <div className="">
-              <div className="container-fluid">
+              <div className="container-fluid modal-fluid">
                 {/* close modal */}
                 <div className="row">
                   <div className="col-lg-12 text-right">
