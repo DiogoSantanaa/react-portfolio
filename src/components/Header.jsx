@@ -1,12 +1,10 @@
 import React, { Component } from "react";
 // import { Animated } from "react-animated-css";
-import background from "../images/background.svg";
 
 class Header extends Component {
   render() {
     return (
       <header>
-        <img src={background} alt="bg" id="background" />
         <section className="bg">
           <div className="container-fluid">
             <div className="row">

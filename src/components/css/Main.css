@@ -4,12 +4,6 @@
 body {
   background-color: #f8f8f8;
 }
-#background {
-  position: absolute;
-  background-attachment: fixed;
-  background-size: cover;
-  right: 0;
-}
 
 /* Header */
 section.bg {
@@ -279,7 +273,15 @@ h3 .waves svg {
   text-transform: none;
   font-size: 1rem;
   color: #4c4a57;
+  margin-bottom: 50px;
 }
+.work {
+  margin-top: 62px;
+}
+.color-col {
+  background-color: #d85d5d;
+}
+
 /* End of About me  */
 
 /* Portfolio */

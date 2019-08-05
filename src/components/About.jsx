@@ -45,16 +45,12 @@ class About extends Component {
             </div>
           </div>
           <div className="row about-padding">
-            <div className="col-lg-12">
+            <div className="col-lg-6 col-md-6">
               <p className="description-title ">
                 An little <span className="cool-font">overview </span>
                 <br />
                 Of me <span className="description-bar">/</span>
               </p>
-            </div>
-          </div>
-          <div className="row about-padding">
-            <div className="col-lg-6">
               <div className="description">
                 <p className="description-subtext">
                   A key component of your transformation, your digital strategy
@@ -65,9 +61,9 @@ class About extends Component {
                 </p>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-6 color-col">
               <div className="row">
-                <div className="col-lg-6 col-sm-6">
+                <div className="col-lg-6 col-sm-12">
                   <div className="work">
                     <h3 className="work-title">
                       <i className="icon waves">
@@ -100,7 +96,7 @@ class About extends Component {
                     </p>
                   </div>
                 </div>
-                <div className="col-lg-6 col-sm-6">
+                <div className="col-lg-6 col-sm-12">
                   <div className="work">
                     <h3 className="work-title">
                       <i className="icon waves">

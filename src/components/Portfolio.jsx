@@ -74,11 +74,7 @@ class Portfolio extends Component {
       return (
         <div className="col-lg-4 col-sm-12 col-xs-12 " key={work.id}>
           <div className="conteudo">
-            <button
-              className=""
-              onClick={this.toggleModal}
-              href={"#" + work.modal}
-            >
+            <button className="" onClick={this.toggleModal}>
               <div className="conteudo-overlay" />
               <img
                 className="img-fluid"
