@@ -142,7 +142,7 @@ section .header-scroll {
   -ms-transform: rotate(-90deg) translateY(-60px) translateX(-100px);
   -o-transform: rotate(-90deg) translateY(-60px) translateX(-100px);
   transform: rotate(-90deg) translateY(-60px) translateX(-100px);
-  bottom: 25%;
+  bottom: 20%;
   left: 50%;
 }
 
