@@ -75,12 +75,18 @@ class About extends Component {
                           x="0px"
                           y="0px"
                           viewBox="0 0 54 12"
-                          style={{ enableBackground: "new 0 0 54 12" }}
                           xmlSpace="preserve"
                         >
+                          <style
+                            type="text/css"
+                            dangerouslySetInnerHTML={{
+                              __html:
+                                "\n\t.st5{fill:none;stroke:#f8f8f8;stroke-width:6;}\n"
+                            }}
+                          />
                           <path
                             id="Caminho_2"
-                            className="st1"
+                            className="st5"
                             d="M2,8.29l7.66-4.58l7.01,4.58l9.81-4.58l9.34,4.58l8.13-4.58L52,8.29"
                           />
                         </svg>
@@ -115,12 +121,12 @@ class About extends Component {
                             type="text/css"
                             dangerouslySetInnerHTML={{
                               __html:
-                                "\n\t.st1{fill:none;stroke:#ffffff;stroke-width:6;}\n"
+                                "\n\t.st5{fill:none;stroke:#f8f8f8;stroke-width:6;}\n"
                             }}
                           />
                           <path
                             id="Caminho_3"
-                            className="st1"
+                            className="st5"
                             d="M2,8.29l7.66-4.58l7.01,4.58l9.81-4.58l9.34,4.58l8.13-4.58L52,8.29"
                           />
                         </svg>

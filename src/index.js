@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import "./components/css/Main.css";
 //import App from "./App";
+import Icons from "./components/Icons";
 import Header from "./components/Header";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
@@ -14,6 +15,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <Icons />
         <Header />
         <About />
         <Portfolio />
