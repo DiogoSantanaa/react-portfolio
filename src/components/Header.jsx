@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 // import { Animated } from "react-animated-css";
-
 class Header extends Component {
   render() {
     return (
