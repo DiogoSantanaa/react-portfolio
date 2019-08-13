@@ -114,7 +114,7 @@ class Portfolio extends Component {
     });
 
     return (
-      <section className="">
+      <section id="Portfolio">
         <div className="container-fuild">
           <div className="row">
             <div className="col-lg-12">

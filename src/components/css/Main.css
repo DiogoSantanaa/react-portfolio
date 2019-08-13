@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,500,600,800&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #f8f8f8;
 }
@@ -408,7 +410,7 @@ h1 .waves svg {
 }
 @media (min-width: 1200px) {
   .h1-margin {
-    margin-top: 150px !important;
+    margin-top: 100px !important;
     margin-bottom: 150px !important;
     padding-left: 20vw !important;
     padding-right: 20vw !important;
@@ -416,14 +418,14 @@ h1 .waves svg {
 }
 @media (min-width: 767px) {
   .h1-margin {
-    margin-top: 150px !important;
+    margin-top: 100px !important;
     margin-bottom: 120px !important;
     padding-left: 20vw !important;
     padding-right: 20vw !important;
   }
 }
 .h1-margin {
-  margin-top: 190px !important;
+  margin-top: 100px !important;
   margin-bottom: 40px;
   padding-left: 20vw !important;
   padding-right: 20vw !important;
@@ -575,7 +577,7 @@ h3 .waves svg {
 .portfolio {
   padding-left: 20vw;
   padding-right: 20vw;
-  padding-top: 180px;
+  padding-top: 0px;
 }
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
@@ -1145,3 +1147,50 @@ ul.a {
 }
 
 /* End of Borders */
+/* Footer */
+footer {
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+footer ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+footer a:hover {
+  text-decoration: none;
+}
+.col-margin {
+  margin-top: 30px;
+}
+.footer-cv {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: underline;
+  line-height: 1.2;
+  font-size: 0.8rem;
+  color: #1c1b20;
+}
+.footer-number {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  line-height: 1.2;
+  font-size: 0.8rem;
+  color: #1c1b20;
+}
+.footer-email {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  line-height: 1.2;
+  font-size: 0.8rem;
+  color: #1c1b20;
+}
+.footer-name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  line-height: 1.2;
+  font-size: 0.8rem;
+  color: #1c1b20;
+}
+/* End of Footer */

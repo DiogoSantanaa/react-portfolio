@@ -91,7 +91,7 @@ class Contact extends Component {
   render() {
     const { formErrors } = this.state;
     return (
-      <section className="">
+      <section id="Contact">
         <div className="container-fuild">
           <div className="row">
             <div className="col-lg-12">

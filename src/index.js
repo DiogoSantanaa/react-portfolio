@@ -10,6 +10,7 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Borders from "./components/Borders";
+import Footer from "./components/Footer";
 import * as serviceWorker from "./serviceWorker";
 
 class App extends Component {
@@ -23,6 +24,7 @@ class App extends Component {
         <Portfolio />
         <Contact />
         <Borders />
+        <Footer />
       </div>
     );
   }
