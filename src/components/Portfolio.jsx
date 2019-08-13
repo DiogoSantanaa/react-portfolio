@@ -114,11 +114,11 @@ class Portfolio extends Component {
     });
 
     return (
-      <section id="Portfolio">
+      <section>
         <div className="container-fuild">
           <div className="row">
             <div className="col-lg-12">
-              <h1 className="h1-margin portfolio">
+              <h1 className="h1-margin portfolio" id="Portfolio">
                 <i className="icon waves">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

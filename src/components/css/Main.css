@@ -577,7 +577,7 @@ h3 .waves svg {
 .portfolio {
   padding-left: 20vw;
   padding-right: 20vw;
-  padding-top: 0px;
+  padding-top: 105px;
 }
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
