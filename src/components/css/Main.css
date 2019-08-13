@@ -15,7 +15,7 @@ body {
   .icons .navbar-brand {
     position: fixed;
     top: 5;
-    z-index: 3;
+    z-index: 1;
   }
 }
 
@@ -230,14 +230,14 @@ section .header-scroll {
 .nav-text {
   top: 20%;
   position: absolute;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 .nav .close {
   position: relative;
   top: 46%;
   right: 22px;
-  margin-left: 60px;
+  margin-left: 30px;
   font-size: 30px;
 }
 .slide a {
@@ -273,7 +273,7 @@ section .header-scroll {
 .slide-contact {
   top: 70%;
   position: absolute;
-  margin-left: 180px;
+  margin-left: 130px;
 }
 .slide-contact a {
   padding: 0px 0px !important;
