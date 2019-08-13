@@ -5,6 +5,7 @@ import "./components/css/Main.css";
 //import App from "./App";
 import Icons from "./components/Icons";
 import Header from "./components/Header";
+import SideMenu from "./components/SideMenu";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
@@ -16,6 +17,7 @@ class App extends Component {
     return (
       <div>
         <Icons />
+        <SideMenu />
         <Header />
         <About />
         <Portfolio />

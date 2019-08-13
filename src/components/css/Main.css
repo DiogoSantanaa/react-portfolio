@@ -69,7 +69,6 @@ section.bg {
 }
 section.bg {
   position: relative;
-  z-index: 2 !important;
 }
 @media screen and (min-width: 320px) {
   .align-text-header h1 {
@@ -167,6 +166,146 @@ section .header-scroll {
 /* End of Header*/
 
 /* Menu */
+.nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background-color: #f8f8f8;
+  overflow-x: hidden;
+  transition: 0.7s;
+}
+
+.l:before,
+.l:after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 8px;
+  top: 50%;
+  margin-top: -3px;
+  background: #d85d5d;
+  z-index: -1;
+}
+
+.l:before {
+  left: -2.5px;
+}
+.l:after {
+  right: 2.5px;
+  background: #d85d5d;
+  z-index: -1;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.l:hover:before {
+  background: #d85d5d;
+  width: 100%;
+  z-index: -1;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.l:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
+}
+.nav a {
+  position: relative;
+  cursor: pointer;
+  display: block;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  line-height: 1.2;
+  font-size: 2rem;
+  color: #1c1b20;
+  text-decoration: none;
+}
+.nav-text {
+  top: 20%;
+  position: absolute;
+  margin-left: 150px;
+}
+
+.nav .close {
+  position: relative;
+  top: 40%;
+  right: 22px;
+  margin-left: 50px;
+  font-size: 30px;
+}
+.slide a {
+  color: #000;
+  font-size: 36px;
+}
+
+@media screen and (min-width: 320px) {
+  #content {
+    position: fixed;
+    top: 3%;
+    right: 5%;
+    transition: margin-left 0.7s;
+    z-index: 1;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  #content {
+    position: fixed;
+    top: 50%;
+    left: 70px;
+    transition: margin-left 0.7s;
+    z-index: 1;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.slide-contact {
+  top: 70%;
+  position: absolute;
+  margin-left: 180px;
+}
+.slide-contact a {
+  padding: 0px 0px !important;
+}
+.slide-number {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  line-height: 1.2;
+  font-size: 1.3rem;
+  color: #1c1b20;
+}
+.slide-email {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  line-height: 1.2;
+  font-size: 1.3rem;
+  color: #1c1b20;
+}
+.inline {
+  display: inline;
+}
+.slide-cv {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: underline;
+  line-height: 1.2;
+  font-size: 1.3rem;
+  color: #1c1b20;
+}
+.fontowesome-padding {
+  padding-left: 10px;
+}
 
 /* End of Menu */
 
