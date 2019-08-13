@@ -26,16 +26,32 @@ class SideBar extends Component {
             <i className="fas fa-times" />
           </a>
           <div className="nav-text">
-            <a className="l" href="#home">
+            <a
+              onClick={this.closeSlideMenu.bind(this)}
+              className="l"
+              href="#home"
+            >
               <span>Home /</span>
             </a>
-            <a className="l" href="#about">
+            <a
+              onClick={this.closeSlideMenu.bind(this)}
+              className="l"
+              href="#about"
+            >
               <span>About me /</span>
             </a>
-            <a className="l" href="#portfolio">
+            <a
+              onClick={this.closeSlideMenu.bind(this)}
+              className="l"
+              href="#portfolio"
+            >
               <span>Portfolio /</span>
             </a>
-            <a className="l" href="#contact">
+            <a
+              onClick={this.closeSlideMenu.bind(this)}
+              className="l"
+              href="#contact"
+            >
               <span>Contact /</span>
             </a>
           </div>

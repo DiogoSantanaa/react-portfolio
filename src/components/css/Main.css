@@ -9,7 +9,7 @@ body {
 
 .icons {
   position: fixed !important;
-  z-index: 2;
+  z-index: 1;
 }
 @media (min-width: 767px) {
   .icons .navbar-brand {
