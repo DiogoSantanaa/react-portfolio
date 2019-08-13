@@ -7,29 +7,6 @@ class Header extends Component {
         <section className="bg">
           <div className="container-fluid">
             <div className="row">
-              {/* <div className="col-lg-12">
-
-                <div className="align-header-content">
-                  <div className="align-text-header">
-                    <h1>
-                      <span className="title-hello">Hello</span>
-
-                      <br />
-
-                      <span className="title-there">There</span>
-                      <span className="title-bar-header">/</span>
-                    </h1>
-                  </div>
-
-                  <div className="align-text-header">
-                    <p className="header-subtitle text-center">
-                      My name is Diogo Santana
-                    </p>
-                  </div>
-                </div>
-
-              </div> */}
-
               <div className="col-lg-12  text-center">
                 <div className="align-text-header">
                   <h1>
@@ -44,6 +21,9 @@ class Header extends Component {
                   <p className="header-subtitle text-center">
                     My name is Diogo Santana
                   </p>
+                  <a href="cv.pdf" title="download cv" download>
+                    <span className="header-cv">curriculum vitae</span>
+                  </a>
                 </div>
               </div>
 

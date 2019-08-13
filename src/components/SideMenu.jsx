@@ -9,7 +9,22 @@ class SideBar extends Component {
     document.getElementById("menu").style.width = "0";
     document.getElementById("content").style.marginLeft = "0";
   }
+
   render() {
+    const menus = ["Home", "About me", "Portfolio", "Contact"];
+    const navLinks = menus.map(menuText => {
+      // this will this code for each word of the array menu
+      return (
+        <a
+          onClick={this.closeSlideMenu.bind(this)}
+          className="l"
+          href={"#" + menuText}
+        >
+          <span>{menuText + " /"} </span>
+        </a>
+      );
+    });
+
     return (
       <div id="content">
         <span className="slide">
@@ -25,36 +40,7 @@ class SideBar extends Component {
           >
             <i className="fas fa-times" />
           </a>
-          <div className="nav-text">
-            <a
-              onClick={this.closeSlideMenu.bind(this)}
-              className="l"
-              href="#home"
-            >
-              <span>Home /</span>
-            </a>
-            <a
-              onClick={this.closeSlideMenu.bind(this)}
-              className="l"
-              href="#about"
-            >
-              <span>About me /</span>
-            </a>
-            <a
-              onClick={this.closeSlideMenu.bind(this)}
-              className="l"
-              href="#portfolio"
-            >
-              <span>Portfolio /</span>
-            </a>
-            <a
-              onClick={this.closeSlideMenu.bind(this)}
-              className="l"
-              href="#contact"
-            >
-              <span>Contact /</span>
-            </a>
-          </div>
+          <div className="nav-text">{navLinks}</div>
           <div className="slide-contact">
             <a href="tel:+351 962 350 734" title="ligar">
               <span className="slide-number">+(351) 962 350 734</span>
