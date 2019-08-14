@@ -121,7 +121,7 @@ section.bg {
   padding: 14% 30%;
 }
 .align-text-header {
-  margin-top: 25vh;
+  margin-top: 20vh;
 }
 .title-hello {
   font-family: "Montserrat", sans-serif;
@@ -144,12 +144,12 @@ section.bg {
   color: #d85d5d;
 }
 @media screen and (min-width: 320px) {
-  .align-text-header p {
+  .header-subtitle {
     font-size: calc(1.9vw + 6 * ((100vw - 320px) / 680));
   }
 }
 @media screen and (min-width: 1000px) {
-  .align-text-header p {
+  .header-subtitle {
     font-size: 1.8rem;
   }
 }
@@ -160,6 +160,25 @@ section.bg {
   text-transform: uppercase;
   color: #1c1b20;
 }
+
+@media screen and (min-width: 320px) {
+  .header-subtitle1 {
+    font-size: calc(1.5vw + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .header-subtitle1 {
+    font-size: 1.3rem;
+  }
+}
+.header-subtitle1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #1c1b20;
+}
+
 @media screen and (min-width: 320px) {
   .header-cv {
     font-size: calc(1vw + 6 * ((100vw - 320px) / 680));
@@ -199,7 +218,6 @@ section .header-scroll {
   bottom: 20%;
   left: 50%;
 }
-
 span .scroll-txt {
   font-size: 0.6rem;
 }

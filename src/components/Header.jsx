@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 // import { Animated } from "react-animated-css";
+import cv from "../images/CV.pdf";
 class Header extends Component {
   render() {
     return (
@@ -21,12 +22,14 @@ class Header extends Component {
                   <p className="header-subtitle text-center">
                     My name is Diogo Santana
                   </p>
-                  <a href="cv.pdf" title="download cv" download>
+                  <p className="header-subtitle1 text-center">
+                    Frontend web developer
+                  </p>
+                  <a href={cv} title="download cv" download>
                     <span className="header-cv">curriculum vitae</span>
                   </a>
                 </div>
               </div>
-
               <span className="header-scroll">
                 <i className="arrow">
                   <svg

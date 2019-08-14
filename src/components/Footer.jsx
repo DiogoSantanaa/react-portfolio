@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import logo from "../images/logo-header/logo.png";
-
+import cv from "../images/CV.pdf";
 class Footer extends Component {
   state = {};
   render() {
@@ -10,7 +10,7 @@ class Footer extends Component {
           <div className="contailer-fluid">
             <div className="row ">
               <div className="col-lg-4 col-md-4 col-margin text-center">
-                <a href="cv.pdf" title="download cv" download>
+                <a href={cv} title="download cv" download>
                   <span className="footer-cv">
                     <i className="fas fa-long-arrow-alt-right " />
                     <span className="fontowesome-padding">

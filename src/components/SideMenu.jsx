@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import cv from "../images/CV.pdf";
 class SideBar extends Component {
   state = {};
   openSlideMenu() {
@@ -53,7 +54,7 @@ class SideBar extends Component {
               <span className="slide-email">diogosantana1997@outlook.pt</span>
             </a>
             <span className="inline">
-              <a href="cv.pdf" title="download cv" download>
+              <a href={cv} title="download cv" download>
                 <span className="slide-cv">
                   <i className="fas fa-long-arrow-alt-right " />
                   <span className="fontowesome-padding">curriculum vitae</span>

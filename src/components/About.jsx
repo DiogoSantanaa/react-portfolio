@@ -53,11 +53,13 @@ class About extends Component {
               </p>
               <div className="description">
                 <p className="description-subtext">
-                  A key component of your transformation, your digital strategy
-                  requires special attention. We provide you with the support
-                  you need all during your project. Through regular workshops,
-                  brainstormings and idea sharing, we help grow your initial
-                  idea into a cutting-edge digital solution.
+                  I my name is Diogo Santana,
+                  <br />
+                  I’m passionate for frontend web development, making things
+                  come to live and very watchful to detail. My skills are html,
+                  CSS, JavaScript and recently I started learn react.js.
+                  Currently, I am looking for my first job has a frontend web
+                  developer.
                 </p>
               </div>
             </div>
