@@ -215,7 +215,7 @@ section .header-scroll {
   -ms-transform: rotate(-90deg) translateY(-60px) translateX(-100px);
   -o-transform: rotate(-90deg) translateY(-60px) translateX(-100px);
   transform: rotate(-90deg) translateY(-60px) translateX(-100px);
-  bottom: 20%;
+  bottom: 15%;
   left: 50%;
 }
 span .scroll-txt {
