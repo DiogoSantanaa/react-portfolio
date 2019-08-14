@@ -200,16 +200,10 @@ section .header-scroll {
   left: 50%;
 }
 
-@media screen and (min-width: 320px) {
-  span .scroll-txt {
-    font-size: calc(1.1vw + 6 * ((100vw - 320px) / 680));
-  }
+span .scroll-txt {
+  font-size: 0.6rem;
 }
-@media screen and (min-width: 1000px) {
-  span .scroll-txt {
-    font-size: 1rem;
-  }
-}
+
 .scroll-txt {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;

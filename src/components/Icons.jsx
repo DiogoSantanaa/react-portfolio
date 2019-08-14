@@ -6,7 +6,7 @@ class Icons extends Component {
     return (
       <div>
         <div id="icons">
-          <a className="navbar-brand logo-top" href="#home">
+          <a className="navbar-brand logo-top" href="#Home">
             <img src={logo} alt="logo" width="35" />
             <div className="sub-page" />
           </a>

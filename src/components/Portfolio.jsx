@@ -27,10 +27,13 @@ class Portfolio extends Component {
         image: "roadcamper",
         modal: "Modal A",
         git: "https://github.com/DiogoSantanaa/roadcamper",
-        demo: "www.roadcamper.pt/",
+        demo: "https://roadcamper.netlify.com/",
         gif: "roadcamper",
         description:
-          "Chapter too parties its letters nor. Cheerful but whatever ladyship disposed yet judgment. Lasted answer oppose to ye months no esteem. Branched is on an ecstatic directly it. Put off continue you denoting returned juvenile. Looked person sister result mr to. Replied demands charmed do viewing ye colonel to so. Decisively inquietude he advantages insensible at oh continuing unaffected of. "
+          "Roadcamper is a company that fixes all types of motorhomes, you can see their " +
+          "specialties,  browse through the recent projects that they made has well has search " +
+          "For a specific type of work. " +
+          "In the end you can see the brands that they work with and send an e-mail or just call them."
       },
       {
         id: 2,
@@ -39,22 +42,30 @@ class Portfolio extends Component {
         image: "inforarte",
         modal: "Modal B",
         git: "https://github.com/DiogoSantanaa/inforarte",
-        demo: "www.google.pt",
+        demo: "https://inforarte.netlify.com/",
         gif: "inforarte",
         description:
-          "Chapter too parties its letters nor. Cheerful but whatever ladyship disposed yet judgment. Lasted answer oppose to ye months no esteem. Branched is on an ecstatic directly it. Put off continue you denoting returned juvenile. Looked person sister result mr to. Replied demands charmed do viewing ye colonel to so. Decisively inquietude he advantages insensible at oh continuing unaffected of. "
+          "Inforarte is a company of publicity and with this site you can browse through " +
+          "their story, see what they have to offer in terms of services, see their portfolio " +
+          "and then you can send them a budget request. In the contact page you can see their " +
+          "phones numbers, email them and see where it is located the office or the atelier."
       },
       {
         id: 3,
         title: "Diogo Portfólio",
         substitle: "React.js - 2019",
-        image: "inforarte",
+        image: "portfolio",
         modal: "Modal C",
         git: "https://github.com/DiogoSantanaa/react-portfolio",
         demo: "https://diogo-santana.tk/",
-        gif: "roadcamper",
+        gif: "portfolio",
         description:
-          "Chapter too parties its letters nor. Cheerful but whatever ladyship disposed yet judgment. Lasted answer oppose to ye months no esteem. Branched is on an ecstatic directly it. Put off continue you denoting returned juvenile. Looked person sister result mr to. Replied demands charmed do viewing ye colonel to so. Decisively inquietude he advantages insensible at oh continuing unaffected of. "
+          "This website was made to share my projects has a frontend web developer." +
+          "On the opening page you can download right away my CV, following you can see" +
+          " a brief description of what I do, next you have my recent works that I made " +
+          "with open a page with a brief description like this one and then you can see the" +
+          " Git repository or a live demo. If you wish to contact me just scroll to the contact" +
+          "zone or click the message icon on the right side of the screen (if you are on a desktop)."
       }
     ];
     const projects = works.map(work => {

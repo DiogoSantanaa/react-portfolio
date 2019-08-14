@@ -138,7 +138,7 @@ class Contact extends Component {
                 <Col md={6}>
                   <FormGroup>
                     <Input
-                      placeholder="Name"
+                      placeholder="Name :"
                       type="text"
                       name="name"
                       noValidate
