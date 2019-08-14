@@ -11,6 +11,7 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Borders from "./components/Borders";
 import Footer from "./components/Footer";
+import Preloader from "./components/Preloader";
 import * as serviceWorker from "./serviceWorker";
 
 class App extends Component {

@@ -121,7 +121,7 @@ section.bg {
   padding: 14% 30%;
 }
 .align-text-header {
-  margin-top: 20vh;
+  margin-top: 18vh;
 }
 .title-hello {
   font-family: "Montserrat", sans-serif;
@@ -215,7 +215,7 @@ section .header-scroll {
   -ms-transform: rotate(-90deg) translateY(-60px) translateX(-100px);
   -o-transform: rotate(-90deg) translateY(-60px) translateX(-100px);
   transform: rotate(-90deg) translateY(-60px) translateX(-100px);
-  bottom: 15%;
+  bottom: 18%;
   left: 50%;
 }
 span .scroll-txt {
