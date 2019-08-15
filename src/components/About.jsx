@@ -55,9 +55,9 @@ class About extends Component {
                 <p className="description-subtext">
                   I my name is Diogo Santana,
                   <br />
-                  I’m passionate for frontend web development, making things
-                  come to live and very watchful to detail. My skills are html,
-                  CSS, JavaScript and recently I started learn react.js.
+                  I’m passionate about frontend web development, making things
+                  come to life and i am very watchful to detail. My skills are
+                  html, CSS, JavaScript and recently I started learn react.js.
                   Currently, I am looking for my first job has a frontend web
                   developer.
                 </p>
