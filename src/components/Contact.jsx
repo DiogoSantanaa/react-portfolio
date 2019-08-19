@@ -195,7 +195,7 @@ class Contact extends Component {
               </FormGroup>
 
               <FormGroup className="text-right">
-                <Button onClick={this.sendEmail}>Send >></Button>
+                <Button>Send >></Button>
               </FormGroup>
             </Form>
           </div>
