@@ -309,6 +309,7 @@ span .scroll-txt {
 .slide a {
   color: #000;
   font-size: 36px;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 320px) {
@@ -535,6 +536,13 @@ h3 .waves svg {
 }
 .color-col {
   background-color: #d85d5d;
+}
+.column {
+  top: 0;
+  position: relative;
+  height: 450px;
+  transition-duration: 0.9s;
+  transition-timing-function: ease-in-out;
 }
 
 /* End of About me  */

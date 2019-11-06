@@ -43,7 +43,6 @@ class Contact extends Component {
 
   handleSubmit = e => {
     e.preventDefault();
-
     if (formValid(this.state)) {
       console.log(`
         --SUBMITTING--
@@ -133,7 +132,17 @@ class Contact extends Component {
           </div>
 
           <div className="email">
-            <Form onSubmit={this.handleSubmit} noValidate>
+            <Form
+              name="form"
+              id="form"
+              onSubmit={this.handleSubmit}
+              noValidate
+              method="post"
+              action={
+                process.env.PUBLIC_URL +
+                "../public/controllers/controllerForm.php"
+              }
+            >
               <Row form>
                 <Col md={6}>
                   <FormGroup>
@@ -141,6 +150,7 @@ class Contact extends Component {
                       placeholder="Name :"
                       type="text"
                       name="name"
+                      id="name"
                       noValidate
                       onChange={this.handleChange}
                     />
@@ -154,7 +164,7 @@ class Contact extends Component {
                     <Input
                       type="email"
                       name="email"
-                      id="exampleEmail"
+                      id="email"
                       placeholder="Email :"
                       noValidate
                       onChange={this.handleChange}
@@ -170,7 +180,7 @@ class Contact extends Component {
                 <Input
                   type="text"
                   name="subject"
-                  id="exampleSubject"
+                  id="subject"
                   placeholder="Subject :"
                   noValidate
                   onChange={this.handleChange}
@@ -184,7 +194,7 @@ class Contact extends Component {
                 <Input
                   type="text"
                   name="message"
-                  id="exampleMessage"
+                  id="message"
                   placeholder="Message :"
                   noValidate
                   onChange={this.handleChange}
@@ -195,7 +205,7 @@ class Contact extends Component {
               </FormGroup>
 
               <FormGroup className="text-right">
-                <Button>Send >></Button>
+                <Button onChange={this.handleSubmit}>Send >></Button>
               </FormGroup>
             </Form>
           </div>

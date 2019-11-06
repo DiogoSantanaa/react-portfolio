@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 
 class About extends Component {
-  state = {};
   render() {
     return (
       <section id="About me">
-        <div className="container-fluid ">
+        <div className="container-fluid">
           <div className="row">
             <div className="col-lg-12">
               <h1 className="h1-margin about">
@@ -44,7 +43,7 @@ class About extends Component {
               </h1>
             </div>
           </div>
-          <div className="row about-padding">
+          <div className="row about-padding tall">
             <div className="col-lg-6 col-md-6">
               <p className="description-title ">
                 An little <span className="cool-font">overview </span>

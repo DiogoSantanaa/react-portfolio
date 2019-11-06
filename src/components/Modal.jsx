@@ -242,10 +242,10 @@ const Modal = props => {
                   CV, following you can see a brief description of what I do,
                   next you have my recent works that I made with open a page
                   with a brief description like this one and then you can see
-                  the Git repository or a live demo. <br />If you wish to
-                  contact me just scroll to the contact zone or click the
-                  message icon on the right side of the screen (if you are on a
-                  desktop).
+                  the Git repository or a live demo. <br />
+                  If you wish to contact me just scroll to the contact zone or
+                  click the message icon on the right side of the screen (if you
+                  are on a desktop).
                 </h6>
               </div>
 
@@ -265,6 +265,10 @@ const Modal = props => {
                   <li className="list-text">
                     <span className="modal-technologies-bar">/ </span>
                     bootstrap
+                  </li>
+                  <li className="list-text">
+                    <span className="modal-technologies-bar">/ </span>
+                    jQuery
                   </li>
                 </ul>
                 <button
