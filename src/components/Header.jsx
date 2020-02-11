@@ -23,7 +23,7 @@ class Header extends Component {
                     My name is Diogo Santana
                   </p>
                   <p className="header-subtitle1 text-center">
-                    Frontend web developer
+                    Web developer
                   </p>
                   <a href={cv} title="download cv" download>
                     <span className="header-cv">curriculum vitae</span>
